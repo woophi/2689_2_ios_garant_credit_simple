@@ -11,7 +11,7 @@ export const sendDataToGA = async (creditSum: number) => {
     }-${now.getDate()} ${now.getHours()}:${now.getMinutes()}:${now.getSeconds()}`;
 
     await fetch(
-      'https://script.google.com/macros/s/AKfycbxOd_mn9JOFxLEfOr0RJjWB0ywD8_HoTkmBVxVe73GzO8UfngESgqghO_an0ECSqdPI/exec',
+      'https://script.google.com/macros/s/AKfycbwkZc-Qa7Kjr-sg8roVOAxHY5_WipUYkiAL5bfPRfC9C-e10m5PvnWMCtGQQy9O3B5B/exec',
       {
         redirect: 'follow',
         method: 'POST',
